@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Shantanu Sapkal, Full Stack Developer">
+  <meta property="og:title" content="Shantanu Sapkal | Full Stack Developer">
+  <meta property="og:description" content="Passionate about building scalable applications with the MERN stack. Strong foundation in Java, DSA, and clean code principles.">
+  <meta property="og:type" content="website">
+  <title>Shantanu Sapkal | Full Stack Developer</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  
+  <!-- CSS & Scripts -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Home">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline><line x1="14" y1="4" x2="10" y2="20"></line></svg>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active" data-section="home">Home</a>
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+        <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+        <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </div>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Section: Home -->
+    <section id="home" class="section hero-section">
+      <div class="container">
+        <div class="hero">
+          <div class="hero-text">
+            <p class="hero-eyebrow">Hello, I'm</p>
+            <h1 class="hero-name">Shantanu Sapkal</h1>
+            <p class="hero-role">Full Stack Developer</p>
+            <p class="hero-bio">Passionate about building scalable applications with the MERN stack. Strong foundation in Java, DSA, and clean code principles.</p>
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="assets/Shantanu_Resume.pdf" download="Shantanu_Resume.pdf" class="btn btn-outline">Resume Download</a>
+            </div>
+            <div class="hero-social">
+              <a href="https://linkedin.com/in/shantanusapkal" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+              <a href="https://github.com/shantanu-07l" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+              <a href="https://leetcode.com/u/Shantanu00713" target="_blank" rel="noopener" class="social-icon" aria-label="LeetCode">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414 0-1.954l-6.77-6.646c-.742-.727-1.897-.732-2.652-.01l-.014.014-4.248 4.168a2.532 2.532 0 0 1-1.396.657 2.457 2.457 0 0 1-1.637-.588 2.364 2.364 0 0 1-.806-1.745c0-1.077.728-2.029 1.767-2.316l8.807-8.643a1.375 1.375 0 0 0 .408-1.253 1.375 1.375 0 0 0-1.374-1.254zm10.435 15.345l-2.396 2.392c-2.211 2.207-5.815 2.239-8.063.074l-4.277-4.193a5.938 5.938 0 0 1-1.271-1.818 5.83 5.83 0 0 1-.349-1.017 5.527 5.527 0 0 1-.062-2.362 5.35 5.35 0 0 1 .125-.513 5.266 5.266 0 0 1 1.209-2.104l3.854-4.126 5.406-5.788a1.374 1.374 0 0 1 1.922 0l8.777 8.611c1.039.287 1.767 1.239 1.767 2.316a2.364 2.364 0 0 1-.806 1.745 2.457 2.457 0 0 1-1.637.588 2.532 2.532 0 0 1-1.396-.657l-4.248-4.168-.014-.014c-.755-.722-1.91-.717-2.652.01l-6.77 6.646c-.54.54-.54 1.414 0 1.954l6.77 6.646c.755.722 1.91.717 2.652-.01l.014-.014 4.248-4.168a2.532 2.532 0 0 1 1.396-.657 2.457 2.457 0 0 1 1.637.588 2.364 2.364 0 0 1 .806 1.745c0 1.077-.728 2.029-1.767 2.316z"></path></svg>
+              </a>
+              <a href="mailto:shantanusapkal07@gmail.com" class="social-icon" aria-label="Email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="hero-photo-wrapper">
+              <img src="assets/profile.jpeg" alt="Shantanu Sapkal" class="hero-photo">
+            </div>
+            <div class="floating-dot dot-1"></div>
+            <div class="floating-dot dot-2"></div>
+            <div class="floating-dot dot-3"></div>
+          </div>
+        </div>
+        <div class="scroll-indicator" id="scrollIndicator">
+          <span class="scroll-text">Scroll</span>
+          <span class="scroll-arrow">↓</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Get to know</p>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        
+        <div class="about-content">
+          <div class="about-text">
+            <p>I'm a motivated Information Technology undergraduate with strong fundamentals in <strong>Java</strong> and <strong>Data Structures & Algorithms</strong>.</p>
+            <p>I have hands-on experience in full-stack development using the <strong class="teal">MERN stack</strong>. I'm passionate about building scalable applications, writing clean backend logic, and continuously improving my problem-solving skills.</p>
+            <p>Currently seeking a Software Engineering / Full Stack Intern role where I can contribute to real-world projects and grow as a developer.</p>
+          </div>
+          
+          <div class="about-right">
+            <div class="education-card">
+              <div class="edu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div class="edu-details">
+                <h3 class="edu-title">Bachelor of Engineering in Information Technology</h3>
+                <p class="edu-institute">PCET's Nutan Maharashtra Institute of Engineering and Technology</p>
+                <div class="edu-meta">
+                  <div class="location">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    Pune, India
+                  </div>
+                  <div class="date">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    Aug 2023 – May 2027
+                  </div>
+                </div>
+                <div class="membership-badge">
+                  <span class="badge-tag">ISTE Member</span>
+                  <span class="badge-text">Indian Society for Technical Education (2025–2027)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stat-cards">
+          <div class="stat-card">
+            <h3 class="stat-value">8.81</h3>
+            <p class="stat-label">CGPA</p>
+          </div>
+          <div class="stat-card">
+            <h3 class="stat-value">2027</h3>
+            <p class="stat-label">Graduation</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">What I know</p>
+          <h2 class="section-title">Skills & Certifications</h2>
+        </div>
+        
+        <div id="skillsGrid" class="skills-grid">
+          <!-- Populated by script.js -->
+        </div>
+
+        <h3 class="cert-title">Certifications</h3>
+        <div id="certGrid" class="cert-grid">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">What I've built</p>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+        
+        <div id="projectsContainer" class="projects-container">
+          <!-- Populated by script.js -->
+        </div>
+        
+        <p class="projects-more">More projects coming soon...</p>
+      </div>
+    </section>
+
+    <!-- Section: Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Where I've worked</p>
+          <h2 class="section-title">Experience</h2>
+        </div>
+        
+        <div id="timelineContainer" class="timeline">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Get in touch</p>
+          <h2 class="section-title">Let's Work Together</h2>
+        </div>
+        <p class="contact-subtitle">I'm currently looking for internship opportunities. Feel free to reach out!</p>
+        
+        <div class="contact-content">
+          <div class="contact-cards">
+            <a href="mailto:shantanusapkal07@gmail.com" target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">shantanusapkal07@gmail.com</span>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-arrow"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+            
+            <a href="tel:+918080554708" target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Phone</span>
+                <span class="contact-value">+91-8080554708</span>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-arrow"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+            
+            <a href="https://linkedin.com/in/shantanusapkal" target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">shantanusapkal</span>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-arrow"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+            
+            <a href="https://github.com/shantanu-07l" target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">shantanu-07l</span>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-arrow"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+
+            <a href="https://leetcode.com/u/Shantanu00713" target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414 0-1.954l-6.77-6.646c-.742-.727-1.897-.732-2.652-.01l-.014.014-4.248 4.168a2.532 2.532 0 0 1-1.396.657 2.457 2.457 0 0 1-1.637-.588 2.364 2.364 0 0 1-.806-1.745c0-1.077.728-2.029 1.767-2.316l8.807-8.643a1.375 1.375 0 0 0 .408-1.253 1.375 1.375 0 0 0-1.374-1.254zm10.435 15.345l-2.396 2.392c-2.211 2.207-5.815 2.239-8.063.074l-4.277-4.193a5.938 5.938 0 0 1-1.271-1.818 5.83 5.83 0 0 1-.349-1.017 5.527 5.527 0 0 1-.062-2.362 5.35 5.35 0 0 1 .125-.513 5.266 5.266 0 0 1 1.209-2.104l3.854-4.126 5.406-5.788a1.374 1.374 0 0 1 1.922 0l8.777 8.611c1.039.287 1.767 1.239 1.767 2.316a2.364 2.364 0 0 1-.806 1.745 2.457 2.457 0 0 1-1.637.588 2.532 2.532 0 0 1-1.396-.657l-4.248-4.168-.014-.014c-.755-.722-1.91-.717-2.652.01l-6.77 6.646c-.54.54-.54 1.414 0 1.954l6.77 6.646c.755.722 1.91.717 2.652-.01l.014-.014 4.248-4.168a2.532 2.532 0 0 1 1.396-.657 2.457 2.457 0 0 1 1.637.588 2.364 2.364 0 0 1 .806 1.745c0 1.077-.728 2.029-1.767 2.316z"></path></svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">LeetCode</span>
+                <span class="contact-value">Shantanu00713</span>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-arrow"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+          </div>
+          
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+                <span class="form-error">Please enter your name</span>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="Your Email" required>
+                <span class="form-error">Please enter a valid email</span>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-textarea" placeholder="Your Message" rows="5" required></textarea>
+                <span class="form-error">Please enter your message</span>
+              </div>
+              <button type="submit" class="form-submit">
+                Send Message
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <a href="#home" class="footer-logo" aria-label="Home">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline><line x1="14" y1="4" x2="10" y2="20"></line></svg>
+        </a>
+        <p class="footer-copyright">© 2026 Shantanu Sapkal</p>
+      </div>
+      <div class="footer-social">
+        <a href="https://linkedin.com/in/shantanusapkal" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        </a>
+        <a href="https://github.com/shantanu-07l" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+        </a>
+        <a href="https://leetcode.com/u/Shantanu00713" target="_blank" rel="noopener" class="social-icon" aria-label="LeetCode">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414 0-1.954l-6.77-6.646c-.742-.727-1.897-.732-2.652-.01l-.014.014-4.248 4.168a2.532 2.532 0 0 1-1.396.657 2.457 2.457 0 0 1-1.637-.588 2.364 2.364 0 0 1-.806-1.745c0-1.077.728-2.029 1.767-2.316l8.807-8.643a1.375 1.375 0 0 0 .408-1.253 1.375 1.375 0 0 0-1.374-1.254zm10.435 15.345l-2.396 2.392c-2.211 2.207-5.815 2.239-8.063.074l-4.277-4.193a5.938 5.938 0 0 1-1.271-1.818 5.83 5.83 0 0 1-.349-1.017 5.527 5.527 0 0 1-.062-2.362 5.35 5.35 0 0 1 .125-.513 5.266 5.266 0 0 1 1.209-2.104l3.854-4.126 5.406-5.788a1.374 1.374 0 0 1 1.922 0l8.777 8.611c1.039.287 1.767 1.239 1.767 2.316a2.364 2.364 0 0 1-.806 1.745 2.457 2.457 0 0 1-1.637.588 2.532 2.532 0 0 1-1.396-.657l-4.248-4.168-.014-.014c-.755-.722-1.91-.717-2.652.01l-6.77 6.646c-.54.54-.54 1.414 0 1.954l6.77 6.646c.755.722 1.91.717 2.652-.01l.014-.014 4.248-4.168a2.532 2.532 0 0 1 1.396-.657 2.457 2.457 0 0 1 1.637.588 2.364 2.364 0 0 1 .806 1.745c0 1.077-.728 2.029-1.767 2.316z"></path></svg>
+        </a>
+        <a href="mailto:shantanusapkal07@gmail.com" class="social-icon" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
