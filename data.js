@@ -79,8 +79,8 @@ const PORTFOLIO_DATA = {
     {
       title: 'Personal Portfolio Website',
       icon: 'layout',
-      github: 'https://github.com/shantanu-07l/portfolio',
-      live: '#',
+      github: 'https://github.com/shantanu-07l/Portfolio-',
+      live: 'https://shantanuportfolio-six.vercel.app',
       date: 'Jul 2026',
       description: 'A sleek, code-themed personal developer portfolio built to showcase project work, skills, and experience with rich micro-animations.',
       tech: ['HTML5', 'CSS3', 'JavaScript (ES6)', 'data.js'],
